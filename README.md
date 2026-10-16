@@ -77,6 +77,10 @@ KAFKA_CLIENT_ID=my-service
 дефолтный sarama `ClientID` для publisher-а и consumer-а, если не переопределён через
 `WithPublisherSaramaConfig`/`WithConsumerSaramaConfig`.
 
+Переменные `KAFKA_*` (`config.KafkaConfig`) читаются из окружения процесса и из `.env`;
+окружение главнее `.env`, пустая переменная в окружении перекрывает значение из `.env`.
+Требуется `gosdk-core` v1.0.27+.
+
 ⚠️ Без consumer group (ни из `KAFKA_CONSUMER_GROUP`, ни из явной опции) Kafka не хранит
 committed offset для подписчика: `msg.Ack()`/`msg.Nack()` ничего не коммитят, и после
 каждого реконнекта сообщения будут вычитаны заново. `Consumer.RegisterHandler` в этом
