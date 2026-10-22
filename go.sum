@@ -13,8 +13,8 @@ github.com/dnwe/otelsarama v0.0.0-20240308230250-9388d9d40bc0 h1:R2zQhFwSCyyd7L4
 github.com/dnwe/otelsarama v0.0.0-20240308230250-9388d9d40bc0/go.mod h1:2MqLKYJfjs3UriXXF9Fd0Qmh/lhxi/6tHXkqtXxyIHc=
 github.com/eapache/go-resiliency v1.7.0 h1:n3NRTnBn5N0Cbi/IeOHuQn9s2UwVUH7Ga0ZWcP+9JTA=
 github.com/eapache/go-resiliency v1.7.0/go.mod h1:5yPzW0MIvSe0JDsv0v+DvcjEv2FyD6iZYSs1ZI+iQho=
-github.com/exgamer/gosdk-core v1.0.29 h1:LvjcTs4+AFsrA8BOOngFmgas86MMyVxhuxmvSuhWPv8=
-github.com/exgamer/gosdk-core v1.0.29/go.mod h1:PehNVPtKS1egbRY6h3/tfD/uFjaRcsybnZSJ5dx/lNY=
+github.com/exgamer/gosdk-core v1.1.0 h1:NjQ8bbH7ee/RF6Nfmq9Lq8CrV/Vywn7lPkzK9O/BEtQ=
+github.com/exgamer/gosdk-core v1.1.0/go.mod h1:PehNVPtKS1egbRY6h3/tfD/uFjaRcsybnZSJ5dx/lNY=
 github.com/frankban/quicktest v1.14.6 h1:7Xjx+VpznH+oBnejlPUj8oUpdxnVs4f8XU8WnHkI4W8=
 github.com/frankban/quicktest v1.14.6/go.mod h1:4ptaffx2x8+WTWXmUCuVU6aPUX1/Mz7zb5vbUoiM6w0=
 github.com/fsnotify/fsnotify v1.10.1 h1:b0/UzAf9yR5rhf3RPm9gf3ehBPpf0oZKIjtpKrx59Ho=
